@@ -1,0 +1,55 @@
+{
+  "name": "tp-pages",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "tp-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/tp/tp-pages#readme",
+  "bugs": {
+    "url": "https://github.com/tp/tp-pages/issues"
+  },
+  "license": "MIT",
+  "author": "tangpeng <961624856@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/tp-pages.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tp/tp-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-add": "^0.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
